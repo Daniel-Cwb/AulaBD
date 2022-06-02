@@ -40,3 +40,8 @@ INSERT
     ADD COLUMN cor VARCHAR(25) AFTER marca;
     
     SELECT * FROM bebidas;
+    
+    ALTER TABLE bebidas
+    DROP COLUMN marca;
+
+    SELECT * FROM bebidas;
